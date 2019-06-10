@@ -15,8 +15,6 @@
   "main": "index.js",
   "scripts": {
     "build": "saber build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages --repo https://${GITHUB_TOKEN}@github.com/pigmentapp/getpigment.app.git --message \"[skip ci] Updates\" --dist public",
     "lint": "vue-cli-service lint",
     "serve": "saber",
     "start": "saber serve"
