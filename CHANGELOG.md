@@ -1,3 +1,10 @@
+## [0.1.2](https://github.com/pigmentapp/getpigment.app/compare/0.1.1...0.1.2) (2019-06-10)
+
+
+### Bug Fixes
+
+* do not ignore dotfiles ([2e80f1a](https://github.com/pigmentapp/getpigment.app/commit/2e80f1a))
+
 ## [0.1.1](https://github.com/pigmentapp/getpigment.app/compare/0.1.0...0.1.1) (2019-06-10)
 
 
