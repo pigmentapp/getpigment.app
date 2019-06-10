@@ -1,4 +1,6 @@
 .DS_Store
+.saber
+public
 node_modules
 
 # Log files

@@ -13,7 +13,12 @@
     "url": "https://github.com/pigmentapp/getpigment.app/issues"
   },
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "saber build",
+    "lint": "vue-cli-service lint",
+    "serve": "saber",
+    "start": "saber serve"
+  },
   "author": {
     "name": "Leonard Hertel",
     "email": "leonard.hertel@gmail.com",
@@ -31,5 +36,8 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.2.2"
+  },
+  "dependencies": {
+    "saber": "^0.6.7"
   }
 }
