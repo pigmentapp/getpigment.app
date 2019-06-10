@@ -25,9 +25,6 @@
           <p>
             Pigment is an open source app for Mac and Windows.
           </p>
-          <p>
-            Current release is {{ latestRelease.tag_name || '0.0.0' }}
-          </p>
         </div>
       </div>
     </app-section>
@@ -35,79 +32,81 @@
       ref="slider"
       :class="$style.slider"
     >
-      <fade-show>
-        <app-content-columns slot="1">
-          <div :class="$style.sliderContent">
-            <app-headline tag="h2">
-              All your WebApps in one place
-            </app-headline>
-            <p>
-              Pigment can be your central communication center.
-            </p>
-            <p>
-              Add your favorite WebApps to Pigment
-              to clean up your browser tabs and dock/taskbar.
-            </p>
-          </div>
-          <div>
-            <app-responsive-embed
-              rounded
-              shadow
-            >
-              <img
-                src="@/assets/screenshots/960x540.png"
-                alt="Discord"
+      <client-only>
+        <fade-show>
+          <app-content-columns slot="1">
+            <div :class="$style.sliderContent">
+              <app-headline tag="h2">
+                All your WebApps in one place
+              </app-headline>
+              <p>
+                Pigment can be your central communication center.
+              </p>
+              <p>
+                Add your favorite WebApps to Pigment
+                to clean up your browser tabs and dock/taskbar.
+              </p>
+            </div>
+            <div>
+              <app-responsive-embed
+                rounded
+                shadow
               >
-            </app-responsive-embed>
-          </div>
-        </app-content-columns>
-        <app-content-columns slot="2">
-          <div :class="$style.sliderContent">
-            <app-headline tag="h2">
-              Reduce stress and stay focused
-            </app-headline>
-            <p>
-              With scheduled notifications.
-              Pigment can collect all incoming notifications
-              and send only one collected notification at your schedule.
-            </p>
-          </div>
-          <div>
-            <app-responsive-embed
-              rounded
-              shadow
-            >
-              <img
-                src="@/assets/screenshots/960x540.png"
-                alt="Discord"
+                <img
+                  src="@/assets/screenshots/960x540.png"
+                  alt="Discord"
+                >
+              </app-responsive-embed>
+            </div>
+          </app-content-columns>
+          <app-content-columns slot="2">
+            <div :class="$style.sliderContent">
+              <app-headline tag="h2">
+                Reduce stress and stay focused
+              </app-headline>
+              <p>
+                With scheduled notifications.
+                Pigment can collect all incoming notifications
+                and send only one collected notification at your schedule.
+              </p>
+            </div>
+            <div>
+              <app-responsive-embed
+                rounded
+                shadow
               >
-            </app-responsive-embed>
-          </div>
-        </app-content-columns>
-        <app-content-columns slot="3">
-          <div :class="$style.sliderContent">
-            <app-headline tag="h2">
-              Improved privacy and distraction free
-            </app-headline>
-            <p>
-              After leaving the app window, Pigment can dim its contents.
-              So you stay focused and nobody can catch an unwanted
-              glimpse of your activities.
-            </p>
-          </div>
-          <div>
-            <app-responsive-embed
-              rounded
-              shadow
-            >
-              <img
-                src="@/assets/screenshots/960x540.png"
-                alt="Discord"
+                <img
+                  src="@/assets/screenshots/960x540.png"
+                  alt="Discord"
+                >
+              </app-responsive-embed>
+            </div>
+          </app-content-columns>
+          <app-content-columns slot="3">
+            <div :class="$style.sliderContent">
+              <app-headline tag="h2">
+                Improved privacy and distraction free
+              </app-headline>
+              <p>
+                After leaving the app window, Pigment can dim its contents.
+                So you stay focused and nobody can catch an unwanted
+                glimpse of your activities.
+              </p>
+            </div>
+            <div>
+              <app-responsive-embed
+                rounded
+                shadow
               >
-            </app-responsive-embed>
-          </div>
-        </app-content-columns>
-      </fade-show>
+                <img
+                  src="@/assets/screenshots/960x540.png"
+                  alt="Discord"
+                >
+              </app-responsive-embed>
+            </div>
+          </app-content-columns>
+        </fade-show>
+      </client-only>
     </app-section>
   </div>
 </template>
@@ -122,25 +121,6 @@ export const attributes = {
 export default {
   components: {
     FadeShow,
-  },
-  data() {
-    return {
-      latestRelease: {},
-    };
-  },
-  created() {
-    this.getLatestRelease();
-  },
-  methods: {
-    async getLatestRelease() {
-      const response = await fetch('//api.github.com/repos/pigmentapp/pigment/releases/latest');
-      const release = await response.json();
-
-      this.latestRelease = release;
-    },
-    readMore() {
-      this.$refs.slider.$el.scrollIntoView({ behavior: 'smooth' });
-    },
   },
 };
 </script>
