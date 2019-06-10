@@ -46,7 +46,8 @@ export default {
   content: "";
 }
 
-.embed > img {
+.embed > img,
+.embed > video {
   @apply absolute top-0 left-0 w-full;
 }
 
