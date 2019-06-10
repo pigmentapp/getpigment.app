@@ -24,13 +24,18 @@ jobs:
           git config user.email "leonard.hertel@gmail.com"
           git config user.name "herteleo"
       - run: npm ci
-      - run: npm run deploy
+      - run: npm run build
+      - run: npx gh-pages --dotfiles --repo https://${GITHUB_TOKEN}@github.com/pigmentapp/getpigment.app.git --message "[skip ci] Updates" --dist public
 
 workflows:
   version: 2
   lint_and_release:
     jobs:
-      - lint
+      - lint:
+          filters:
+            branches:
+              ignore:
+                - gh-pages
       - release:
           requires:
             - lint
@@ -41,7 +46,7 @@ workflows:
                 - dev
       - deploy:
           requires:
-            - lint
+            - release
           filters:
             branches:
               only:
