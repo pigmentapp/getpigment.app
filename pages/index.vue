@@ -43,7 +43,7 @@
 import ShowCase from '../components/ShowCase.vue';
 
 export const attributes = {
-  layout: 'page',
+  layout: 'Page',
 };
 
 export default {

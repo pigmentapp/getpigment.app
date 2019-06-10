@@ -19,7 +19,7 @@
           shadow
         >
           <img
-            src="@/assets/screenshots/960x540.png"
+            src="@/assets/screenshots/pigment-screenshot-welcome-page.png"
             alt="Discord"
           >
         </app-responsive-embed>
@@ -42,7 +42,7 @@
           shadow
         >
           <img
-            src="@/assets/screenshots/960x540.png"
+            src="@/assets/screenshots/pigment-screenshot-wunderlist.png"
             alt="Discord"
           >
         </app-responsive-embed>
@@ -65,9 +65,34 @@
           shadow
         >
           <img
-            src="@/assets/screenshots/960x540.png"
+            src="@/assets/screenshots/pigment-screenshot-active-dimmer.png"
             alt="Discord"
           >
+        </app-responsive-embed>
+      </div>
+    </app-content-columns>
+    <app-content-columns slot="4">
+      <div :class="$style.sliderContent">
+        <app-headline tag="h2">
+          Customizable interface &amp; behaviour
+        </app-headline>
+        <p>
+          Pigment has even more settings to customize the layout
+          and behaviour of the app. Just give it a try and
+          download Pigment now for free. It's open source too.
+        </p>
+      </div>
+      <div>
+        <app-responsive-embed
+          rounded
+          shadow
+        >
+          <video
+            src="/assets/screenshots/pigment-screenshot-layout-variants.mp4"
+            autoplay
+            controls
+            loop
+          />
         </app-responsive-embed>
       </div>
     </app-content-columns>

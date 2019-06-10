@@ -13,7 +13,7 @@
         shadow
       >
         <img
-          src="@/assets/screenshots/960x540.png"
+          src="@/assets/screenshots/pigment-screenshot-welcome-page.png"
           alt="Pigment"
         >
       </app-responsive-embed>
