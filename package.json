@@ -31,6 +31,7 @@
     "pre-commit": "npm run lint"
   },
   "dependencies": {
+    "nprogress": "^0.2.0",
     "saber": "^0.6.7"
   },
   "devDependencies": {

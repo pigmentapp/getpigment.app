@@ -19,4 +19,21 @@ import TheWrap from './components/TheWrap.vue';
 
 export default (context) => {
   context.setRootComponent(TheWrap);
+
+  if (process.browser) {
+    const nprogress = require('nprogress'); // eslint-disable-line global-require
+    require('nprogress/nprogress.css'); // eslint-disable-line global-require
+
+    const loadedPages = [];
+
+    context.router.beforeEach((to, from, next) => {
+      if (!loadedPages.includes(to.path)) nprogress.start();
+      next();
+    });
+
+    context.router.afterEach((to) => {
+      loadedPages.push(to.path);
+      nprogress.done();
+    });
+  }
 };
