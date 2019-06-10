@@ -1,3 +1,10 @@
+## [0.1.1](https://github.com/pigmentapp/getpigment.app/compare/0.1.0...0.1.1) (2019-06-10)
+
+
+### Bug Fixes
+
+* defined client-only components ([0f9f1be](https://github.com/pigmentapp/getpigment.app/commit/0f9f1be))
+
 # [0.1.0](https://github.com/pigmentapp/getpigment.app/compare/0.0.0...0.1.0) (2019-06-10)
 
 
