@@ -45,6 +45,8 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.2.2",
     "gh-pages": "^2.0.1",
-    "semantic-release": "^15.13.12"
+    "postcss-focus": "^4.0.0",
+    "semantic-release": "^15.13.12",
+    "tailwindcss": "^1.0.3"
   }
 }
