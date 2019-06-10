@@ -1,0 +1,22 @@
+{
+  "name": "getpigment.app",
+  "version": "0.0.0-development",
+  "description": "Pigment website",
+  "keywords": [],
+  "license": "",
+  "homepage": "https://getpigment.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pigmentapp/getpigment.app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pigmentapp/getpigment.app/issues"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "author": {
+    "name": "Leonard Hertel",
+    "email": "leonard.hertel@gmail.com",
+    "url": "https://leonardhertel.de"
+  }
+}
