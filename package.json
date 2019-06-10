@@ -27,7 +27,11 @@
     "url": "https://leonardhertel.de"
   },
   "gitHooks": {
-    "commit-msg": "commitlint -E GIT_PARAMS"
+    "commit-msg": "commitlint -E GIT_PARAMS",
+    "pre-commit": "npm run lint"
+  },
+  "dependencies": {
+    "saber": "^0.6.7"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
@@ -42,8 +46,5 @@
     "eslint-plugin-vue": "^5.2.2",
     "gh-pages": "^2.0.1",
     "semantic-release": "^15.13.12"
-  },
-  "dependencies": {
-    "saber": "^0.6.7"
   }
 }
