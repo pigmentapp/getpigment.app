@@ -1,0 +1,53 @@
+{
+  "name": "getpigment.app",
+  "version": "0.0.0-development",
+  "description": "Pigment website",
+  "keywords": [],
+  "license": "",
+  "homepage": "https://getpigment.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pigmentapp/getpigment.app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pigmentapp/getpigment.app/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "saber build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public",
+    "lint": "vue-cli-service lint",
+    "serve": "saber",
+    "start": "saber serve"
+  },
+  "author": {
+    "name": "Leonard Hertel",
+    "email": "leonard.hertel@gmail.com",
+    "url": "https://leonardhertel.de"
+  },
+  "gitHooks": {
+    "commit-msg": "commitlint -E GIT_PARAMS",
+    "pre-commit": "npm run lint"
+  },
+  "dependencies": {
+    "nprogress": "^0.2.0",
+    "saber": "^0.6.7"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/git": "^7.0.8",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "gh-pages": "^2.0.1",
+    "postcss-focus": "^4.0.0",
+    "semantic-release": "^15.13.12",
+    "tailwindcss": "^1.0.3"
+  }
+}
