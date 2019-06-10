@@ -18,5 +18,9 @@
     "name": "Leonard Hertel",
     "email": "leonard.hertel@gmail.com",
     "url": "https://leonardhertel.de"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0"
   }
 }
