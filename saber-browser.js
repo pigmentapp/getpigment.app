@@ -4,6 +4,7 @@ import 'tailwindcss/base.css';
 import 'tailwindcss/components.css';
 
 import Vue from 'vue';
+import TheWrap from './components/TheWrap.vue';
 
 ((function registerGlobalAppComponents() {
   const appComponents = require.context('./components', false, /App.*\.vue$/);
@@ -15,3 +16,7 @@ import Vue from 'vue';
     Vue.component(componentName, componentConfig.default || componentConfig);
   });
 })());
+
+export default (context) => {
+  context.setRootComponent(TheWrap);
+};
