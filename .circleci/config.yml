@@ -31,7 +31,11 @@ workflows:
   version: 2
   lint_and_release:
     jobs:
-      - lint
+      - lint:
+          filters:
+            branches:
+              ignore:
+                - gh-pages
       - release:
           requires:
             - lint
