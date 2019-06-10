@@ -1,3 +1,10 @@
+## [0.1.3](https://github.com/pigmentapp/getpigment.app/compare/0.1.2...0.1.3) (2019-06-10)
+
+
+### Bug Fixes
+
+* homepage showcase works again ([9ca1f0a](https://github.com/pigmentapp/getpigment.app/commit/9ca1f0a))
+
 ## [0.1.2](https://github.com/pigmentapp/getpigment.app/compare/0.1.1...0.1.2) (2019-06-10)
 
 
