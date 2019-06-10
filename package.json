@@ -19,6 +19,9 @@
     "email": "leonard.hertel@gmail.com",
     "url": "https://leonardhertel.de"
   },
+  "gitHooks": {
+    "commit-msg": "commitlint -E GIT_PARAMS"
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
     "@commitlint/config-conventional": "^8.0.0",
