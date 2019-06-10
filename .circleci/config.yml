@@ -46,7 +46,7 @@ workflows:
                 - dev
       - deploy:
           requires:
-            - lint
+            - release
           filters:
             branches:
               only:
