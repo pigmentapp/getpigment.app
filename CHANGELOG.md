@@ -1,3 +1,15 @@
+# [0.2.0](https://github.com/pigmentapp/getpigment.app/compare/0.1.3...0.2.0) (2019-06-10)
+
+
+### Bug Fixes
+
+* homepage layout reference ([ce27034](https://github.com/pigmentapp/getpigment.app/commit/ce27034))
+
+
+### Features
+
+* added screenshots + layout settings slide ([98ee45c](https://github.com/pigmentapp/getpigment.app/commit/98ee45c))
+
 ## [0.1.3](https://github.com/pigmentapp/getpigment.app/compare/0.1.2...0.1.3) (2019-06-10)
 
 
