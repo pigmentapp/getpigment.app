@@ -3,12 +3,12 @@
     <app-container :class="$style.container">
       Made with ❤️ by <a href="//herteleo.de">@herteleo</a>
       &middot;
-      <a href="/legal/imprint.html">
-        Imprint &amp; Contact (Impressum &amp; Kontakt)
+      <a href="//legal.herteleo.de/imprint/getpigment.app">
+        Impressum &amp; Kontakt
       </a>
       &middot;
-      <a href="/legal/data-protection.html">
-        Data protection (Datenschutz)
+      <a href="//legal.herteleo.de/data-protection/getpigment.app">
+        Datenschutz
       </a>
     </app-container>
   </nav>
