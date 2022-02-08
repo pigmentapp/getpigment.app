@@ -1,3 +1,10 @@
+## [0.2.1](https://github.com/pigmentapp/getpigment.app/compare/0.2.0...0.2.1) (2022-02-08)
+
+
+### Bug Fixes
+
+* update legal links ([c33109c](https://github.com/pigmentapp/getpigment.app/commit/c33109cfa275b683203c88f11c6bf93c8417d156))
+
 # [0.2.0](https://github.com/pigmentapp/getpigment.app/compare/0.1.3...0.2.0) (2019-06-10)
 
 
