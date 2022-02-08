@@ -1,3 +1,10 @@
+## [0.2.2](https://github.com/pigmentapp/getpigment.app/compare/0.2.1...0.2.2) (2022-02-08)
+
+
+### Reverts
+
+* Revert "chore: update commitlint + audit fixes" ([9adc9a1](https://github.com/pigmentapp/getpigment.app/commit/9adc9a1e07695433a1229ca0100371a801716a28))
+
 ## [0.2.1](https://github.com/pigmentapp/getpigment.app/compare/0.2.0...0.2.1) (2022-02-08)
 
 
