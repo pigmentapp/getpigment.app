@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="py-2 bg-yellow-400 text-yellow-900">
-      <div class="container mx-auto">
+    <div :class="$style.alert">
+      <div :class="$style.message">
         The project is no longer maintained.
       </div>
     </div>
@@ -28,3 +28,13 @@ export default {
   },
 };
 </script>
+
+<style lang="postcss" module>
+.alert {
+  @apply py-2 bg-yellow-400 text-yellow-900;
+}
+
+.message {
+  @apply container mx-auto;
+}
+</style>
