@@ -1,3 +1,10 @@
+## [0.3.3](https://github.com/pigmentapp/getpigment.app/compare/0.3.2...0.3.3) (2023-08-31)
+
+
+### Bug Fixes
+
+* fix public url for github.io ([68b16b7](https://github.com/pigmentapp/getpigment.app/commit/68b16b72206d569b67ad1e286f43df1c12afcd27))
+
 ## [0.3.2](https://github.com/pigmentapp/getpigment.app/compare/0.3.1...0.3.2) (2023-08-31)
 
 
