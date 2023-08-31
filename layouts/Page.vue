@@ -1,5 +1,10 @@
 <template>
   <div>
+    <div class="py-2 bg-yellow-400 text-yellow-900">
+      <div class="container mx-auto">
+        The project is no longer maintained.
+      </div>
+    </div>
     <slot />
   </div>
 </template>

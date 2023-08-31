@@ -1,3 +1,6 @@
+> [!WARNING]
+> The project is no longer maintained.
+
 # getpigment.app
 Pigment website
 
