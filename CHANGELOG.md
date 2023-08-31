@@ -1,3 +1,10 @@
+## [0.3.2](https://github.com/pigmentapp/getpigment.app/compare/0.3.1...0.3.2) (2023-08-31)
+
+
+### Bug Fixes
+
+* fix deprecation warning styles ([a454127](https://github.com/pigmentapp/getpigment.app/commit/a454127071bb540ef3c1461b6629217c4036f524))
+
 ## [0.3.1](https://github.com/pigmentapp/getpigment.app/compare/0.3.0...0.3.1) (2023-08-31)
 
 
