@@ -7,7 +7,7 @@
           and benefit from anti-stress features to stay focused
         </app-headline>
         <app-button
-          to="/download"
+          to="/getpigment.app/download"
           large
           margin
           primary

@@ -88,7 +88,7 @@
           shadow
         >
           <video
-            src="/assets/screenshots/pigment-screenshot-layout-variants.mp4"
+            src="/getpigment.app/assets/screenshots/pigment-screenshot-layout-variants.mp4"
             autoplay
             controls
             loop

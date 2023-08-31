@@ -16,7 +16,7 @@
           </nav-list-item>
         </nav-list>
         <app-button
-          to="/download"
+          to="/getpigment.app/download"
           primary
         >
           Download
