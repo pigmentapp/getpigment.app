@@ -6,4 +6,7 @@ module.exports = {
     page: '/:slug',
     post: '/:year/:month/:day/:slug',
   },
+  build: {
+    publicUrl: '/getpigment.app/',
+  },
 };
