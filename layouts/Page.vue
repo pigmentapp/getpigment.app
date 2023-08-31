@@ -1,9 +1,9 @@
 <template>
   <div>
     <div :class="$style.alert">
-      <div :class="$style.message">
+      <app-container>
         The project is no longer maintained.
-      </div>
+      </app-container>
     </div>
     <slot />
   </div>
@@ -32,9 +32,5 @@ export default {
 <style lang="postcss" module>
 .alert {
   @apply py-2 bg-yellow-400 text-yellow-900;
-}
-
-.message {
-  @apply container mx-auto;
 }
 </style>
