@@ -1,9 +1,15 @@
 <template>
   <div>
     <app-section :class="$style.download">
-      <client-only>
-        <download-buttons />
-      </client-only>
+      <app-button
+        to="https://github.com/pigmentapp/pigment/releases"
+        external
+        margin
+        large
+        primary
+      >
+        Download
+      </app-button>
     </app-section>
 
     <app-section :class="$style.requirements">
@@ -22,8 +28,6 @@
 </template>
 
 <script>
-import DownloadButtons from '../components/DownloadButtons.vue';
-
 export const attributes = {
   layout: 'Page',
   title: 'Download',
@@ -31,7 +35,6 @@ export const attributes = {
 
 export default {
   components: {
-    DownloadButtons,
   },
 };
 </script>
