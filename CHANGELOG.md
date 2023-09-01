@@ -1,3 +1,10 @@
+## [0.3.5](https://github.com/pigmentapp/getpigment.app/compare/0.3.4...0.3.5) (2023-09-01)
+
+
+### Bug Fixes
+
+* add static download button ([ae9941e](https://github.com/pigmentapp/getpigment.app/commit/ae9941e34a7b17025db1a3ddcc574a30d1e6d57f))
+
 ## [0.3.4](https://github.com/pigmentapp/getpigment.app/compare/0.3.3...0.3.4) (2023-08-31)
 
 
